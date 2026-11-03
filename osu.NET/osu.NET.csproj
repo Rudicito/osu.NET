@@ -16,13 +16,13 @@
     </ItemGroup>
 
     <PropertyGroup>
-        <PackageId>osu.NET</PackageId>
-        <Authors>minisbett</Authors>
+        <PackageId>osu.cito.NET</PackageId>
+        <Authors>Rudicito</Authors>
         <Description>A modern, well-documented osu! API v2 wrapper written in .NET/C#.</Description>
         <PackageTags>api, api-client, osu, wrapper-api, osugame</PackageTags>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <RepositoryUrl>https://github.com/minisbett/osu.NET</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Rudicito/osu.NET</RepositoryUrl>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <DebugType>embedded</DebugType>
