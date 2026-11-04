@@ -9,7 +9,7 @@ namespace osu.NET.Internal;
 /// <summary>
 /// Provides the <see cref="JsonSerializerSettings"/> for the <see cref="OsuApiClient"/>.
 /// </summary>
-internal static class OsuJsonSerializer
+public static class OsuJsonSerializer
 {
     public static JsonSerializer Create()
         => JsonSerializer.Create(new()

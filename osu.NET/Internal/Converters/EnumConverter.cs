@@ -7,7 +7,7 @@ namespace osu.NET.Internal.Converters;
 /// A <see cref="JsonConverter"/> that handles the deserialization into enums based on the <see cref="JsonApiNameAttribute"/>.
 /// Additionally, it handles arrays of enums, dictionaries with an enum as the key type and integer conversion.
 /// </summary>
-internal class EnumConverter : JsonConverter
+public class EnumConverter : JsonConverter
 {
     /// <inheritdoc/>
     public override bool CanWrite => false;
