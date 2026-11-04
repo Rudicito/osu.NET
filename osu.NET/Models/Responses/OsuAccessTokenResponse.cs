@@ -5,7 +5,7 @@ namespace osu.NET.Models.Responses;
 /// <summary>
 /// Represents the response from an access token request via <see cref="Authorization.OsuClientAccessTokenProvider"/>.
 /// </summary>
-internal class OsuAccessTokenResponse
+public class OsuAccessTokenResponse
 {
     /// <summary>
     /// The access token. If null, an error likely occured.
